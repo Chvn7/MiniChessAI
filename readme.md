@@ -1,14 +1,34 @@
-    Gardner chess (5 by 5)
+# Gardner Chess (5x5)
 
-This game has roughly 9x(10^18) legal positions and is comparable in this respect with checkers.
-Officially a weakly solved game (perfectly played leads to draw). So I'm not going for perfect game AI opponent.
+Gardner Chess is a 5 by 5 board chess, containing all kinds of chess pieces on the 1st row and pawn on the 2nd row. The game has roughly 9 x 10^18 legal positions, comparable in complexity to Checkers.
 
-    Some rules:
+> **Note:** This game is officially a **weakly solved game**, meaning perfect play results in a draw. This AI implementation focuses on a challenging experience not the solved approach.
+> (AI look 3 moves ahead using Minimax search, Alpha-Beta pruning, and a heuristic evaluation system)
 
-No Castling
-Pawn rules:
-Promotion Yes
-Double-Step No
-En Passant No
+## Gameplay Rules:
 
-Chess pieces assets en:User:Cburnett, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons
+- **Castling:** No
+- **Pawn Mechanics:**
+  - **Promotion:** Yes
+  - **Double-Step:** No
+  - **En Passant:** No
+
+## Assets & Credits
+
+- **Chess Piece Assets:** [en:User:Cburnett](https://commons.wikimedia.org/wiki/User:Cburnett), licensed under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) via Wikimedia Commons.
+
+## Setup
+
+1. **Clone the repository:**
+   ```
+   git clone https://github.com/Chvn7/MiniChessAI.git
+   ```
+2. **Install required libraries:**
+   ```
+   cd MiniChessAI
+   pip install -r requirements.txt
+   ```
+3. **Run**
+   ```
+   python main.py
+   ```
