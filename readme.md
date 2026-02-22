@@ -13,10 +13,6 @@ Gardner Chess is a 5 by 5 board chess, containing all kinds of chess pieces on t
   - **Double-Step:** No
   - **En Passant:** No
 
-## Assets & Credits
-
-- **Chess Piece Assets:** [en:User:Cburnett](https://commons.wikimedia.org/wiki/User:Cburnett), licensed under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) via Wikimedia Commons.
-
 ## Setup
 
 1. **Clone the repository:**
@@ -32,3 +28,7 @@ Gardner Chess is a 5 by 5 board chess, containing all kinds of chess pieces on t
    ```
    python main.py
    ```
+
+## Assets & Credits
+
+- **Chess Piece Assets:** [en:User:Cburnett](https://commons.wikimedia.org/wiki/User:Cburnett), licensed under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) via Wikimedia Commons.
